@@ -33,3 +33,15 @@ const logNumber: (i: number) => void = (i: number) => {
 const json = '{"x": 5, "y": 10}';
 const coordinates = JSON.parse(json);
 console.log(coordinates);
+
+// 3) variable whose type cannot be referred correctly
+
+const nums = [-10, -1, 20];
+
+let numberAboveZero: boolean | number = false;
+
+for (let i = 0; i <= numbers.length; i++) {
+  if (nums[i] > 0) {
+    numberAboveZero = nums[i];
+  }
+}
