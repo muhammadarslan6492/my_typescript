@@ -33,6 +33,3 @@ const printVeicle = (vehicle: Veicle): void => {
 const report = (item: Reports): void => {
   console.log(item.sumary());
 };
-
-printVeicle(oldCivic);
-report(drink);
